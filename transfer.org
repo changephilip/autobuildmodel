@@ -1,0 +1,56 @@
+155 钱嘉强帐号移交
+* 帐号信息 
+qjq@10.157.56.155
+password:1q2w3e4r5t
+* 核心文件：~/.bashrc
+* 重要项目文件
+** pdb_scrapy 写作相关文件，不要删除
+** fcn_article  不要删除
+** thesisResult 论文数据，暂时不要删除
+* 主要程序
+** EMAN2
+    电镜图像通用处理套件
+    可执行程序所在目录：
+    /home/qjq/EMAN2/bin
+    /home/qjq/EMAN2/examples/
+** Phenix
+    X 光晶体衍射以及其他实验获得的电子密度图的原子模型构建程序
+    /home/qjq/phenix/phenix-1.13-2998/build/bin
+** CCP4
+    结构生物学通用套件
+    /home/qjq/ccp4/ccp4-7.0/bin
+** Rosetta
+    /home/qjq/rosetta_src/main/source/bin
+** Situs
+    电子显微镜图像处理套件
+    /home/qjq/Situs_2.8/bin
+** anaconda
+    python 替代系统自带
+    /home/qjq/anaconda2/bin
+** coot
+    电镜原子模型构建程序
+    /home/qjq/coot-Linux-x86_64-ubuntu-14.04-gtk2-python/bin
+** NAMD
+    动力学模拟程序
+    /home/qjq/NAMD_Git-.../namd2
+** VMD
+    /home/qjq/VMD/bin/
+** openMM
+    分子动力学模拟程序
+    启用 anaconda
+    在 bashrc 中禁用 EMAN2 等程序，确保 python 使用 anaconda
+    impoort openmm 检查是否启用成功
+    其他搜索 openmm
+* 其他程序
+** pytorch
+   神经网络快速构建工具 
+   同 openmm，
+** TEMPy-1.1
+   计算密度图\原子模型的匹配程度
+   同 openmm
+** SSE
+   二级结构识别程序
+** cryoFIT
+    Phenix 配套的 Gromacs 组件，不要删除
+** bin 和 src
+    Gromacs 文件，不要删除
